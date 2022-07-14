@@ -16,7 +16,7 @@ Input constraints:
 0 <= m <= 59
 0 <= s <= 59
 */
-// A test
+
 function past(h, m, s) {
   return h * 3600000 + m * 60000 + s * 1000;
 }
